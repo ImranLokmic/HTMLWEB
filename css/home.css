@@ -8,10 +8,6 @@ body {
   background-size: cover;
 
 }
-body {
-  margin: 0;
-  min-height: 100%;
-}
 .creditCardForm {
     max-width: 700px;
     background-color: #fff;
@@ -83,7 +79,7 @@ body {
 }
 .back{
   position: absolute;
-  bottom: 0%;
+  bottom: 0px;
   width: 100%;
 }
 @media(max-width: 650px) {
@@ -96,4 +92,11 @@ body {
     .creditCardForm #credit_cards {
         text-align: left;
     }
+}
+@media (orientation:landscape) {
+  .back{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  }
 }

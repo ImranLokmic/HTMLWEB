@@ -1,13 +1,11 @@
-
 body {
   margin: 0;
   min-height: 100%;
   background: url("../img/back.png");
-  background-position: center auto ;
+  background-position: center auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 .logo {
@@ -72,4 +70,34 @@ body {
   width: 200px;
   height: 100px;
   margin-left: -100px;
+}
+
+@media screen and (min-width:411px) {
+  .smallscreen {
+    display: none;
+  }
+}
+
+@media screen and (max-width:410px) and (min-width:320px) {
+  .engflagimg {
+    width: 150px;
+    height: 75px;
+    margin-left: -75px;
+  }
+
+  .bosflagimg {
+    width: 150px;
+    height: 75px;
+    margin-left: -75px;
+  }
+
+  .smallscreen {
+    display: none;
+  }
+}
+
+@media screen and (max-width:319px) {
+  .container {
+    display: none;
+  }
 }
