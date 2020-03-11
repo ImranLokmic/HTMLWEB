@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  background: url("../img/back.png");
+  background-position: center auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo {
+  position: relative;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: 10px;
+  max-height: 80px;
+  max-width: 80px;
+}
+.container{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+.buttons {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.buttond {
+  padding: 20px 20px;
+  background-image: linear-gradient(to left, white, #4caf50);
+  border: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+  display: block;
+  float: left;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 18px;
+}
+
+.buttonb {
+  padding: 20px 20px;
+  background-image: linear-gradient(to right, white, #4caf50);
+  border: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+  display: block;
+  float: left;
+  left: 50%;
+  margin-left: -63px;
+  font-size: 18px;
+}
+@media screen and (min-width:768px) {
+  .buttond{
+    font-size: 36px;
+    margin-left: -99px;
+  }
+  .buttonb{
+    font-size: 36px;
+    margin-left: -104px;
+  }
+}
+@media screen and (min-width:320px) {
+  .smallscreen {
+    display: none;
+  }
+}
+@media screen and (max-width:319px) {
+  .container {
+    display: none;
+  }
+}
