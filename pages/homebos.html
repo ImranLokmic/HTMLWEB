@@ -21,7 +21,7 @@
       <form>
         <div class="form-group owner">
           <label for="owner">Ime i prezime Vlasnika</label>
-          <input type="text" class="form-control" id="owner" required pattern="[A-Za-z]" autocomplete="off">
+          <input type="text" class="form-control" id="owner"  autocomplete="off">
         </div>
         <div class="form-group CVV">
           <label for="cvv">CVV</label>
@@ -29,7 +29,7 @@
         </div>
         <div class="form-group" id="card-number-field">
           <label for="cardNumber">Broj Kartice</label>
-          <input type="text" class="form-control" id="cardNumber" maxlength="16" required pattern="[1-9]{16}" autocomplete="off">
+          <input type="text" class="form-control" id="cardNumber" maxlength="19" required pattern="[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" autocomplete="off">
         </div>
         <div class="form-group" id="expiration-date">
           <label>Datum isteka</label>
