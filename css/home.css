@@ -7,6 +7,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.logo {
+  position: relative;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: 10px;
+  max-height: 80px;
+  max-width: 80px;
+}
 .creditCardForm {
     max-width: 700px;
     background-color: #fff;
@@ -62,24 +70,26 @@ body {
     width: 100%;
     margin-top: 25px;
 }
-.creditCardForm .payment .btn {
+.creditCardForm  .btn {
     width: 100%;
     margin-top: 3px;
     font-size: 24px;
     background-color: #2ec4a5;
     color: white;
 }
-.creditCardForm .payment select {
+.creditCardForm  .btnx {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #f06969;
+    color: white;
+}
+.creditCardForm  select {
     padding: 10px;
     margin-right: 15px;
 }
 .transparent {
     opacity: 0.2;
-}
-.back{
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
 }
 @media(max-width: 650px) {
     .creditCardForm .owner,
@@ -92,14 +102,6 @@ body {
         text-align: left;
     }
 }
-@media  (orientation:landscape) {
-  .back{
-    position: relative;
-    top:100%;
-    width: 100%;
-    height: 100%;
-  }
-}
 @media screen and (min-width:320px){
   .smallscreen{
     display: none;
@@ -109,7 +111,4 @@ body {
 .creditCardForm {
     display: none;
   }
-.back{
-  display: none;
-}
 }
