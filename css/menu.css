@@ -53,6 +53,23 @@ body {
   margin-left: -63px;
   font-size: 18px;
 }
+.smallscreen{
+  background-color: white;
+  height: 80%;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0px 5px 5px -0px rgba(0, 0, 0, 0.3);
+}
+.smallscreen img{
+  position: relative;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+.smallscreen h1{
+  text-align: center;
+  color: green;
+  font-family: Helvetica, Arial, sans-serif;
+}
 @media screen and (min-width:768px) {
   .buttond{
     font-size: 36px;

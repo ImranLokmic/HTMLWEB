@@ -16,13 +16,22 @@ body {
   max-height: 80px;
   max-width: 80px;
 }
+.container{
+  background-color: white;
+  height: 80%;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0px 5px 5px -0px rgba(0, 0, 0, 0.3);
+}
 h2 {
+  
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .btn{
-  position: absolute;
+  position: relative;
   left:50%;
   margin-left: -60px;
+  margin-bottom: 10px;
   color:white;
   padding: 12px 12px;
   background-color:green;
@@ -34,6 +43,23 @@ h2 {
 }
 .btn:active{
   background-color: red;
+}
+.smallscreen{
+  background-color: white;
+  height: 80%;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0px 5px 5px -0px rgba(0, 0, 0, 0.3);
+}
+.smallscreen img{
+  position: relative;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+.smallscreen h1{
+  text-align: center;
+  color: green;
+  font-family: Helvetica, Arial, sans-serif;
 }
 @media screen and (min-width:320px) {
   .smallscreen {
