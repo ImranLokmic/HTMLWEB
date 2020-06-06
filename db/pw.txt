@@ -1,0 +1,8 @@
+test
+iut
+XO0$7G7tjs8rsg|2
+
+  $servername = 'localhost';
+  $username = 'id13981763_iut';
+  $password = 'XO0$7G7tjs8rsg|2';
+  $dbname = 'id13981763_test';
